@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    flex-wrap: wrap;
+    display: flex;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.conteudo2{
+    margin-top: 50px;
+    height: auto;
+    width: 350px;
+}
+.conteudo2 .tela-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(219, 219, 219) solid;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgb(248, 248, 248);
+}
+.conteudo2 .tela-login img{
+    height: 80px;
+    width: 190px;
+    margin: 10px;
+}
+.conteudo2 .tela-login .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo2 .tela-login .login input{
+    margin: 5px;
+    height: 30px;
+    width: 270px;
+    border-radius: 1px;
+    border: 1px rgb(219, 219, 219) solid;
+    font-size: 12px;
+    padding: 5px;
+}
+.conteudo2 .tela-login .login button{
+    margin-top: 10px;
+    background: rgb(178, 233, 255);
+    height: 30px;
+    width: 270px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+.conteudo2 .tela-login .ou{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo2 .tela-login .ou h1{
+    font-size: 14px;
+    margin: 20px;
+    color: rgb(145, 145, 145);
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo2 .tela-login .ou hr{
+    width: 105px;
+    height: 1px;
+    background:rgb(226, 226, 226);
+    border: none;
+}
+.conteudo2 .tela-login .facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo2 .tela-login .facebook img{
+    height: 18px;
+    width: 18px;
+}
+.conteudo2 .tela-login .facebook .entre-facebook{
+    text-decoration: none;
+    color: #3b5998;
+    font-size: 14px;
+    font-weight: 600;
+}
+.conteudo2 .tela-login .esqueceu{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #1d366b;
+}
+.conteudo2 .cadastro{
+    margin-top: 10px;
+    text-align: center;
+    border: 1px rgb(219, 219, 219) solid;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgb(248, 248, 248);
+}
+.conteudo2 .cadastro .conta{
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 20px;
+}
+.conteudo2 .cadastro .conta .cadastrar{
+    font-weight: 600;
+    color: rgb(90, 162, 190);
+    text-decoration: none;
+}
+.conteudo2 .aplicativo{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+}
+.conteudo2 .apps{
+    display: flex;
+    justify-content: center;
+}
+.conteudo2 .apps img{
+    margin: 5px;
+    height: 40px;
+    width: 140px;
+}
+.conteudo1{
+    height: auto;
+    width: 820px;
+}
+.conteudo1 img{
+    float: right;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.content {
+    margin: 5vh auto;
+}
